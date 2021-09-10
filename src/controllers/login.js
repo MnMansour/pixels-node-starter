@@ -1,5 +1,5 @@
 const loginRouter = require('express').Router()
-const loginService = require('../services/loginService.js')
+const loginService = require('../services/loginService')
 
 /**
  * Log user in

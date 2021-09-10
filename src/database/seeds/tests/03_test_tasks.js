@@ -9,7 +9,7 @@ for( let i = 0; i < 20; i++ ) {
   tasks.push( {
   	name: taskName,
     description: 'Do '+faker.commerce.productAdjective()+' '+taskName,
-    projectID: faker.random.number(3),
+    projectID: faker.datatype.number(3),
   } )
 }
 
