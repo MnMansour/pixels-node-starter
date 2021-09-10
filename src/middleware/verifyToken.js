@@ -1,4 +1,4 @@
-const loginService = require('../services/loginService.js')
+const loginService = require('../services/loginService')
 
 /**
  * See if request contains
